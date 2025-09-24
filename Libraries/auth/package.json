@@ -1,0 +1,13 @@
+{
+  "name": "auth",
+  "version": "0.0.1",
+  "description": "Reusable RBAC logic and decorators for the Secure Task Management System",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "typescript": "^4.9.5"
+  }
+}
