@@ -9,10 +9,10 @@
   },
   "private": true,
   "devDependencies": {
-    "@nrwl/cli": "latest",
-    "@nrwl/workspace": "latest",
     "@nrwl/angular": "latest",
+    "@nrwl/cli": "latest",
     "@nrwl/nest": "latest",
+    "@nrwl/workspace": "latest",
     "typescript": "^4.9.5"
   }
 }

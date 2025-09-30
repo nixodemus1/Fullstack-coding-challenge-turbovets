@@ -1,37 +1,7 @@
 import { Entity, PrimaryGeneratedColumn, Column, ManyToOne, OneToMany } from 'typeorm';
 
 @Entity()
-export class User {
-  @PrimaryGeneratedColumn()
-  id?: number;
-
-  @Column()
-  username?: string;
-
-  @Column()
-  password?: string;
-
-  @ManyToOne(() => Organization, (organization) => organization.users)
-  organization?: Organization;
-
-  @ManyToOne(() => Role, (role) => role.users)
-  role?: Role;
-}
-
-@Entity()
-export class Organization {
-  @PrimaryGeneratedColumn()
-  id?: number;
-
-  @Column()
-  name?: string;
-
-  @OneToMany(() => User, (user) => user.organization)
-  users?: User[];
-}
-
-@Entity()
-export class Role {
+class Role {
   @PrimaryGeneratedColumn()
   id?: number;
 
@@ -43,7 +13,40 @@ export class Role {
 }
 
 @Entity()
-export class Task {
+class Organization {
+  @PrimaryGeneratedColumn()
+  id?: number;
+
+  @Column()
+  name?: string;
+
+  @OneToMany(() => User, (user) => user.organization)
+  users?: User[];
+}
+
+@Entity()
+class User {
+  @PrimaryGeneratedColumn()
+  id?: number;
+
+  @Column()
+  username?: string;
+
+  @Column()
+  password?: string;
+
+  @ManyToOne(() => Organization, (organization) => organization.users, { nullable: true })
+  organization?: Organization;
+
+  @ManyToOne(() => Role, (role) => role.users, { nullable: true })
+  role?: Role;
+
+  @OneToMany(() => Task, (task) => task.assignedTo)
+  tasks?: Task[];
+}
+
+@Entity()
+class Task {
   @PrimaryGeneratedColumn()
   id?: number;
 
@@ -53,9 +56,11 @@ export class Task {
   @Column()
   description?: string;
 
-  @ManyToOne(() => User, (user) => user.id)
+  @ManyToOne(() => User, (user) => user.tasks)
   assignedTo?: User;
 
   @Column()
   status?: string;
 }
+
+export { Role, Organization, User, Task };

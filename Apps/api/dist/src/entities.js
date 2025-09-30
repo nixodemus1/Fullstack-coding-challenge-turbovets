@@ -9,10 +9,47 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.Task = exports.Role = exports.Organization = exports.User = void 0;
+exports.Task = exports.User = exports.Organization = exports.Role = void 0;
 const typeorm_1 = require("typeorm");
+let Role = class Role {
+};
+exports.Role = Role;
+__decorate([
+    (0, typeorm_1.PrimaryGeneratedColumn)(),
+    __metadata("design:type", Number)
+], Role.prototype, "id", void 0);
+__decorate([
+    (0, typeorm_1.Column)(),
+    __metadata("design:type", String)
+], Role.prototype, "name", void 0);
+__decorate([
+    (0, typeorm_1.OneToMany)(() => User, (user) => user.role),
+    __metadata("design:type", Array)
+], Role.prototype, "users", void 0);
+exports.Role = Role = __decorate([
+    (0, typeorm_1.Entity)()
+], Role);
+let Organization = class Organization {
+};
+exports.Organization = Organization;
+__decorate([
+    (0, typeorm_1.PrimaryGeneratedColumn)(),
+    __metadata("design:type", Number)
+], Organization.prototype, "id", void 0);
+__decorate([
+    (0, typeorm_1.Column)(),
+    __metadata("design:type", String)
+], Organization.prototype, "name", void 0);
+__decorate([
+    (0, typeorm_1.OneToMany)(() => User, (user) => user.organization),
+    __metadata("design:type", Array)
+], Organization.prototype, "users", void 0);
+exports.Organization = Organization = __decorate([
+    (0, typeorm_1.Entity)()
+], Organization);
 let User = class User {
 };
+exports.User = User;
 __decorate([
     (0, typeorm_1.PrimaryGeneratedColumn)(),
     __metadata("design:type", Number)
@@ -26,55 +63,23 @@ __decorate([
     __metadata("design:type", String)
 ], User.prototype, "password", void 0);
 __decorate([
-    (0, typeorm_1.ManyToOne)(() => Organization, (organization) => organization.users),
+    (0, typeorm_1.ManyToOne)(() => Organization, (organization) => organization.users, { nullable: true }),
     __metadata("design:type", Organization)
 ], User.prototype, "organization", void 0);
 __decorate([
-    (0, typeorm_1.ManyToOne)(() => Role, (role) => role.users),
+    (0, typeorm_1.ManyToOne)(() => Role, (role) => role.users, { nullable: true }),
     __metadata("design:type", Role)
 ], User.prototype, "role", void 0);
-User = __decorate([
+__decorate([
+    (0, typeorm_1.OneToMany)(() => Task, (task) => task.assignedTo),
+    __metadata("design:type", Array)
+], User.prototype, "tasks", void 0);
+exports.User = User = __decorate([
     (0, typeorm_1.Entity)()
 ], User);
-exports.User = User;
-let Organization = class Organization {
-};
-__decorate([
-    (0, typeorm_1.PrimaryGeneratedColumn)(),
-    __metadata("design:type", Number)
-], Organization.prototype, "id", void 0);
-__decorate([
-    (0, typeorm_1.Column)(),
-    __metadata("design:type", String)
-], Organization.prototype, "name", void 0);
-__decorate([
-    (0, typeorm_1.OneToMany)(() => User, (user) => user.organization),
-    __metadata("design:type", Array)
-], Organization.prototype, "users", void 0);
-Organization = __decorate([
-    (0, typeorm_1.Entity)()
-], Organization);
-exports.Organization = Organization;
-let Role = class Role {
-};
-__decorate([
-    (0, typeorm_1.PrimaryGeneratedColumn)(),
-    __metadata("design:type", Number)
-], Role.prototype, "id", void 0);
-__decorate([
-    (0, typeorm_1.Column)(),
-    __metadata("design:type", String)
-], Role.prototype, "name", void 0);
-__decorate([
-    (0, typeorm_1.OneToMany)(() => User, (user) => user.role),
-    __metadata("design:type", Array)
-], Role.prototype, "users", void 0);
-Role = __decorate([
-    (0, typeorm_1.Entity)()
-], Role);
-exports.Role = Role;
 let Task = class Task {
 };
+exports.Task = Task;
 __decorate([
     (0, typeorm_1.PrimaryGeneratedColumn)(),
     __metadata("design:type", Number)
@@ -88,14 +93,13 @@ __decorate([
     __metadata("design:type", String)
 ], Task.prototype, "description", void 0);
 __decorate([
-    (0, typeorm_1.ManyToOne)(() => User, (user) => user.id),
+    (0, typeorm_1.ManyToOne)(() => User, (user) => user.tasks),
     __metadata("design:type", User)
 ], Task.prototype, "assignedTo", void 0);
 __decorate([
     (0, typeorm_1.Column)(),
     __metadata("design:type", String)
 ], Task.prototype, "status", void 0);
-Task = __decorate([
+exports.Task = Task = __decorate([
     (0, typeorm_1.Entity)()
 ], Task);
-exports.Task = Task;

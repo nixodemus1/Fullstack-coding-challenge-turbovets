@@ -1,0 +1,263 @@
+2025-09-25T19:55:20.856Z - Task created: {"id":1758830120856,"userId":23,"title":"New Task","description":"Task description"}
+2025-09-25T19:55:20.995Z - Task created: {"id":1758830120995,"userId":24,"title":"User Task","description":"Task description"}
+2025-09-25T19:55:21.012Z - Task created: {"id":1758830121012,"userId":23,"title":"Admin Task","description":"Admin task description"}
+2025-09-25T20:02:21.263Z - Task created: {"id":1758830541263,"userId":25,"title":"New Task","description":"Task description"}
+2025-09-25T20:02:21.395Z - Task created: {"id":1758830541395,"userId":26,"title":"User Task","description":"Task description"}
+2025-09-25T20:02:21.403Z - Task created: {"id":1758830541403,"userId":25,"title":"Admin Task","description":"Admin task description"}
+2025-09-25T20:10:06.445Z - Task created: {"id":1758831006445,"userId":27,"title":"New Task","description":"Task description"}
+2025-09-25T20:10:06.578Z - Task created: {"id":1758831006578,"userId":28,"title":"User Task","description":"Task description"}
+2025-09-25T20:10:06.586Z - Task created: {"id":1758831006586,"userId":27,"title":"Admin Task","description":"Admin task description"}
+2025-09-25T20:30:24.760Z - Task created: {"id":1758832224760,"userId":29,"title":"New Task","description":"Task description"}
+2025-09-25T20:30:24.896Z - Task created: {"id":1758832224896,"userId":30,"title":"User Task","description":"Task description"}
+2025-09-25T20:30:24.906Z - Task created: {"id":1758832224906,"userId":29,"title":"Admin Task","description":"Admin task description"}
+2025-09-25T20:32:25.710Z - Task created: {"id":1758832345710,"userId":31,"title":"New Task","description":"Task description"}
+2025-09-25T20:32:25.857Z - Task created: {"id":1758832345857,"userId":32,"title":"User Task","description":"Task description"}
+2025-09-25T20:32:25.866Z - Task created: {"id":1758832345866,"userId":31,"title":"Admin Task","description":"Admin task description"}
+2025-09-25T20:40:48.735Z - Task created: {"id":1758832848735,"userId":33,"title":"New Task","description":"Task description"}
+2025-09-25T20:40:48.873Z - Task created: {"id":1758832848873,"userId":34,"title":"User Task","description":"Task description"}
+2025-09-25T20:40:48.881Z - Task created: {"id":1758832848881,"userId":33,"title":"Admin Task","description":"Admin task description"}
+2025-09-25T20:45:18.234Z - Task created: {"id":1758833118234,"userId":35,"title":"New Task","description":"Task description"}
+2025-09-25T20:45:18.375Z - Task created: {"id":1758833118375,"userId":36,"title":"User Task","description":"Task description"}
+2025-09-25T20:45:18.386Z - Task created: {"id":1758833118385,"userId":35,"title":"Admin Task","description":"Admin task description"}
+2025-09-26T02:09:03.238Z - Unauthorized update attempt by user 70 on task 2
+2025-09-26T02:09:03.258Z - Unauthorized update attempt by user 70 on task 1
+2025-09-26T02:09:35.971Z - Unauthorized update attempt by user 72 on task 2
+2025-09-26T02:09:35.995Z - Unauthorized update attempt by user 72 on task 1
+2025-09-26T02:10:09.351Z - Unauthorized update attempt by user 74 on task 2
+2025-09-26T02:10:09.373Z - Unauthorized update attempt by user 74 on task 1
+2025-09-26T02:10:56.245Z - Unauthorized update attempt by user 76 on task 2
+2025-09-26T02:10:56.266Z - Unauthorized update attempt by user 76 on task 1
+2025-09-26T02:11:41.899Z - Unauthorized update attempt by user 78 on task 2
+2025-09-26T02:11:41.919Z - Unauthorized update attempt by user 78 on task 1
+2025-09-26T02:24:50.478Z - Task created: {"id":1,"title":"New Task","description":"Task description","userId":81}
+2025-09-26T02:24:50.625Z - Task created: {"id":2,"title":"User Task","description":"Task description","userId":82}
+2025-09-26T02:27:30.784Z - Task created: {"id":3,"title":"New Task","description":"Task description","userId":83}
+2025-09-26T02:27:30.934Z - Task created: {"id":4,"title":"User Task","description":"Task description","userId":84}
+2025-09-26T02:29:55.588Z - Task created: {"id":5,"title":"New Task","description":"Task description","userId":85}
+2025-09-26T02:29:55.742Z - Task created: {"id":6,"title":"User Task","description":"Task description","userId":86}
+2025-09-26T02:31:16.899Z - Task created: {"id":7,"title":"New Task","description":"Task description","userId":87}
+2025-09-26T02:31:17.049Z - Task created: {"id":8,"title":"User Task","description":"Task description","userId":88}
+2025-09-26T02:43:25.536Z - Task created: {"id":9,"title":"New Task","description":"Task description","userId":89}
+2025-09-26T02:43:25.680Z - Task created: {"id":10,"title":"User Task","description":"Task description","userId":90}
+2025-09-26T02:56:23.122Z - Task created: {"id":2,"title":"Admin Task","description":"Generic description for admin task","userId":91}
+2025-09-26T02:56:23.283Z - Task created: {"id":3,"title":"User Task","description":"Generic description for user task","userId":92}
+2025-09-26T02:56:23.369Z - Task updated: {"id":3,"title":"Updated User Task","description":"Updated description for user task","userId":92}
+2025-09-26T03:05:01.292Z - Task created: {"id":3,"title":"Admin Task","description":"Generic description for admin task","userId":93,"createdBy":"admin"}
+2025-09-26T03:05:01.445Z - Task created: {"id":4,"title":"User Task","description":"Generic description for user task","userId":94,"createdBy":"user"}
+2025-09-26T03:05:01.524Z - Task updated: {"id":4,"title":"Updated User Task","description":"Updated description for user task","userId":94,"createdBy":"user"}
+2025-09-26T03:05:01.558Z - Task updated: {"id":4,"title":"Admin Edited User Task","description":"Updated description for user task","userId":94,"createdBy":"user"}
+2025-09-26T03:08:43.843Z - Task created: {"id":1,"title":"Admin Task","description":"Generic description for admin task","userId":95,"createdBy":"admin"}
+2025-09-26T03:08:43.992Z - Task created: {"id":2,"title":"User Task","description":"Generic description for user task","userId":96,"createdBy":"user"}
+2025-09-26T03:08:44.080Z - Task updated: {"id":2,"title":"Updated User Task","description":"Updated description for user task","userId":96,"createdBy":"user"}
+2025-09-26T03:08:44.116Z - Task updated: {"id":2,"title":"Admin Edited User Task","description":"Updated description for user task","userId":96,"createdBy":"user"}
+2025-09-26T03:25:17.702Z - Task created: {"id":3,"title":"Admin Task","description":"Generic description for admin task","userId":97,"createdBy":"admin"}
+2025-09-26T03:25:17.856Z - Task created: {"id":4,"title":"User Task","description":"Generic description for user task","userId":98,"createdBy":"user"}
+2025-09-26T03:25:17.952Z - Task updated: {"id":4,"title":"Updated User Task","description":"Updated description for user task","userId":98,"createdBy":"user"}
+2025-09-26T03:25:17.987Z - Task updated: {"id":2,"title":"Admin Edited User Task","description":"Updated description for user task","userId":96,"createdBy":"user"}
+2025-09-26T03:36:13.120Z - Task created: {"id":1,"title":"Admin Task","description":"Generic description for admin task","userId":99,"createdBy":"admin"}
+2025-09-26T03:36:13.267Z - Task created: {"id":2,"title":"User Task","description":"Generic description for user task","userId":100,"createdBy":"user"}
+2025-09-26T03:36:13.369Z - Task updated: {"id":2,"title":"Updated User Task","description":"Updated description for user task","userId":100,"createdBy":"user"}
+2025-09-26T03:36:13.413Z - Task updated: {"id":2,"title":"Admin Edited User Task","description":"Updated description for user task","userId":100,"createdBy":"user"}
+2025-09-26T03:41:08.346Z - Task created: {"id":3,"title":"Admin Task","description":"Generic description for admin task","userId":101,"createdBy":"admin"}
+2025-09-26T03:41:08.502Z - Task created: {"id":4,"title":"User Task","description":"Generic description for user task","userId":102,"createdBy":"user"}
+2025-09-26T03:41:08.597Z - Task updated: {"id":4,"title":"Updated User Task","description":"Updated description for user task","userId":102,"createdBy":"user"}
+2025-09-26T03:41:08.619Z - Unauthorized update attempt by user 102 on task 1
+2025-09-26T03:41:08.643Z - Task updated: {"id":2,"title":"Admin Edited User Task","description":"Updated description for user task","userId":100,"createdBy":"user"}
+2025-09-26T03:53:58.942Z - Task created: {"id":5,"title":"Admin Task","description":"Generic description for admin task","userId":103,"createdBy":"admin"}
+2025-09-26T03:53:59.093Z - Task created: {"id":6,"title":"User Task","description":"Generic description for user task","userId":104,"createdBy":"user"}
+2025-09-26T03:53:59.191Z - Task updated: {"id":6,"title":"Updated User Task","description":"Updated description for user task","userId":104,"createdBy":"user"}
+2025-09-26T03:53:59.215Z - Unauthorized update attempt by user 104 on task 1
+2025-09-26T03:53:59.240Z - Task updated: {"id":2,"title":"Admin Edited User Task","description":"Updated description for user task","userId":100,"createdBy":"user"}
+2025-09-26T05:44:42.684Z - Task created: {"id":7,"title":"Admin Task","description":"Generic description for admin task","userId":105,"createdBy":"admin"}
+2025-09-26T05:44:42.840Z - Task created: {"id":8,"title":"User Task","description":"Generic description for user task","userId":106,"createdBy":"user"}
+2025-09-26T05:44:42.938Z - Task updated by user: {"id":8,"title":"Updated User Task","description":"Updated description for user task","userId":106,"createdBy":"user"}
+2025-09-26T05:44:42.961Z - Unauthorized update attempt by user 106 on task 1
+2025-09-26T05:44:42.984Z - Task updated by admin: {"id":2,"title":"Admin Edited User Task","description":"Updated description for user task","userId":100,"createdBy":"user"}
+2025-09-26T06:06:10.682Z - Task created: {"id":1,"title":"Admin Task","description":"Generic description for admin task","userId":107,"createdBy":"admin"}
+2025-09-26T06:06:10.837Z - Task created: {"id":2,"title":"User Task","description":"Generic description for user task","userId":108,"createdBy":"user"}
+2025-09-26T06:06:10.861Z - Task updated by user: {"id":2,"title":"Updated User Task","description":"Updated description for user task","userId":108,"createdBy":"user"}
+2025-09-26T06:06:10.908Z - Task updated by admin: {"id":2,"title":"Admin Edited User Task","description":"Updated description for user task","userId":108,"createdBy":"user"}
+2025-09-26T07:29:58.738Z - Task created: {"id":1,"title":"Admin Task","description":"Generic description for admin task","userId":1,"createdBy":"admin"}
+2025-09-26T07:29:58.876Z - Task created: {"id":2,"title":"User Task","description":"Generic description for user task","userId":2,"createdBy":"user"}
+2025-09-26T07:29:58.889Z - Task created: {"id":3,"title":"User Task 2","description":"Another user-created task","userId":2,"createdBy":"user"}
+2025-09-26T07:29:58.913Z - Task updated by user: {"id":2,"title":"Updated User Task","description":"Updated description for user task","userId":2,"createdBy":"user"}
+2025-09-26T07:29:58.924Z - Unauthorized update attempt by user 2 on task 1
+2025-09-26T07:29:58.992Z - Task updated by admin: {"id":2,"title":"Admin Edited User Task","description":"Updated description for user task","userId":2,"createdBy":"user"}
+2025-09-26T07:29:59.013Z - Task updated by admin: {"id":1,"title":"Updated Admin Task","description":"Generic description for admin task","userId":1,"createdBy":"admin"}
+2025-09-26T22:12:00.581Z - Task created: {"id":4,"title":"Admin Task","description":"Generic description for admin task","userId":1,"createdBy":"admin"}
+2025-09-26T22:12:00.736Z - Task created: {"id":5,"title":"User Task","description":"Generic description for user task","userId":2,"createdBy":"user"}
+2025-09-26T22:12:00.751Z - Task created: {"id":6,"title":"User Task 2","description":"Another user-created task","userId":2,"createdBy":"user"}
+2025-09-26T22:12:00.782Z - Task updated by user: {"id":5,"title":"Updated User Task","description":"Updated description for user task","userId":2,"createdBy":"user"}
+2025-09-26T22:12:00.802Z - Unauthorized update attempt by user 2 on task 1
+2025-09-26T22:12:00.899Z - Task updated by admin: {"id":2,"title":"Admin Edited User Task","description":"Updated description for user task","userId":2,"createdBy":"user"}
+2025-09-26T22:12:00.936Z - Task updated by admin: {"id":1,"title":"Updated Admin Task","description":"Generic description for admin task","userId":1,"createdBy":"admin"}
+2025-09-26T23:49:55.182Z - Task created: {"id":7,"title":"Admin Task","description":"Generic description for admin task","userId":1,"createdBy":"admin"}
+2025-09-26T23:49:55.331Z - Task created: {"id":8,"title":"User Task","description":"Generic description for user task","userId":2,"createdBy":"user"}
+2025-09-26T23:49:55.345Z - Task created: {"id":9,"title":"User Task 2","description":"Another user-created task","userId":2,"createdBy":"user"}
+2025-09-26T23:49:55.372Z - Task updated by user: {"id":8,"title":"Updated User Task","description":"Updated description for user task","userId":2,"createdBy":"user"}
+2025-09-26T23:49:55.385Z - Unauthorized update attempt by user 2 on task 1
+2025-09-26T23:49:55.455Z - Task updated by admin: {"id":2,"title":"Admin Edited User Task","description":"Updated description for user task","userId":2,"createdBy":"user"}
+2025-09-26T23:49:55.478Z - Task updated by admin: {"id":1,"title":"Updated Admin Task","description":"Generic description for admin task","userId":1,"createdBy":"admin"}
+2025-09-26T23:54:10.259Z - Task created: {"id":1,"title":"Admin Task","description":"Generic description for admin task","userId":1,"createdBy":"admin"}
+2025-09-26T23:54:10.403Z - Task created: {"id":2,"title":"User Task","description":"Generic description for user task","userId":2,"createdBy":"user"}
+2025-09-26T23:54:10.415Z - Task created: {"id":3,"title":"User Task 2","description":"Another user-created task","userId":2,"createdBy":"user"}
+2025-09-26T23:54:10.441Z - Task updated by user: {"id":2,"title":"Updated User Task","description":"Updated description for user task","userId":2,"createdBy":"user"}
+2025-09-26T23:54:10.453Z - Unauthorized update attempt by user 2 on task 1
+2025-09-26T23:54:10.515Z - Task updated by admin: {"id":2,"title":"Admin Edited User Task","description":"Updated description for user task","userId":2,"createdBy":"user"}
+2025-09-26T23:54:10.537Z - Task updated by admin: {"id":1,"title":"Updated Admin Task","description":"Generic description for admin task","userId":1,"createdBy":"admin"}
+2025-09-27T00:03:14.299Z - Task created: {"id":1,"title":"Admin Task","description":"Generic description for admin task","userId":1,"createdBy":"admin"}
+2025-09-27T00:03:14.443Z - Task created: {"id":2,"title":"User Task","description":"Generic description for user task","userId":2,"createdBy":"user"}
+2025-09-27T00:03:14.455Z - Task created: {"id":3,"title":"User Task 2","description":"Another user-created task","userId":2,"createdBy":"user"}
+2025-09-27T00:03:14.487Z - Task updated: {"id":2,"title":"Updated User Task","description":"Updated description for user task","userId":2,"createdBy":"user"}
+2025-09-27T00:03:14.509Z - Unauthorized update attempt by user 2 on task 1
+2025-09-27T00:03:14.585Z - Task updated: {"id":2,"title":"Admin Edited User Task","description":"Updated description for user task","userId":2,"createdBy":"user"}
+2025-09-27T00:03:14.609Z - Task updated: {"id":1,"title":"Updated Admin Task","description":"Generic description for admin task","userId":1,"createdBy":"admin"}
+2025-09-27T00:14:40.655Z - Task created: {"id":4,"title":"Admin Task","description":"Generic description for admin task","userId":3,"createdBy":"admin"}
+2025-09-27T00:14:40.802Z - Task created: {"id":5,"title":"User Task","description":"Generic description for user task","userId":4,"createdBy":"user"}
+2025-09-27T00:14:40.817Z - Task created: {"id":6,"title":"User Task 2","description":"Another user-created task","userId":4,"createdBy":"user"}
+2025-09-27T00:14:40.848Z - Task updated: {"id":5,"title":"Updated User Task","description":"Updated description for user task","userId":4,"createdBy":"user"}
+2025-09-27T00:14:40.863Z - Unauthorized update attempt by user 4 on task 1
+2025-09-27T00:14:40.936Z - Task updated: {"id":2,"title":"Admin Edited User Task","description":"Updated description for user task","userId":2,"createdBy":"user"}
+2025-09-27T00:14:40.959Z - Task updated: {"id":1,"title":"Updated Admin Task","description":"Generic description for admin task","userId":1,"createdBy":"admin"}
+2025-09-27T00:24:44.660Z - Task created: {"id":7,"title":"Admin Task","description":"Generic description for admin task","userId":5,"createdBy":"admin"}
+2025-09-27T00:24:44.801Z - Task created: {"id":8,"title":"User Task","description":"Generic description for user task","userId":6,"createdBy":"user"}
+2025-09-27T00:24:44.812Z - Task created: {"id":9,"title":"User Task 2","description":"Another user-created task","userId":6,"createdBy":"user"}
+2025-09-27T00:24:44.841Z - Task updated: {"id":8,"title":"Updated User Task","description":"Updated description for user task","userId":6,"createdBy":"user"}
+2025-09-27T00:24:44.857Z - Unauthorized update attempt by user 6 on task 1
+2025-09-27T00:24:44.944Z - Task updated: {"id":2,"title":"Admin Edited User Task","description":"Updated description for user task","userId":2,"createdBy":"user"}
+2025-09-27T00:24:44.969Z - Task updated: {"id":1,"title":"Updated Admin Task","description":"Generic description for admin task","userId":1,"createdBy":"admin"}
+2025-09-27T00:34:27.709Z - Task created: {"id":10,"title":"Admin Task","description":"Generic description for admin task","userId":7,"createdBy":"admin"}
+2025-09-27T00:34:27.853Z - Task created: {"id":11,"title":"User Task","description":"Generic description for user task","userId":8,"createdBy":"user"}
+2025-09-27T00:34:27.867Z - Task created: {"id":12,"title":"User Task 2","description":"Another user-created task","userId":8,"createdBy":"user"}
+2025-09-27T00:34:27.896Z - Task updated: {"id":11,"title":"Updated User Task","description":"Updated description for user task","userId":8,"createdBy":"user"}
+2025-09-27T00:34:27.909Z - Unauthorized update attempt by user 8 on task 1
+2025-09-27T00:34:27.999Z - Task updated: {"id":2,"title":"Admin Edited User Task","description":"Updated description for user task","userId":2,"createdBy":"user"}
+2025-09-27T00:34:28.028Z - Task updated: {"id":1,"title":"Updated Admin Task","description":"Generic description for admin task","userId":1,"createdBy":"admin"}
+2025-09-27T00:36:22.167Z - Task created: {"id":13,"title":"Admin Task","description":"Generic description for admin task","userId":9,"createdBy":"admin"}
+2025-09-27T00:36:22.313Z - Task created: {"id":14,"title":"User Task","description":"Generic description for user task","userId":10,"createdBy":"user"}
+2025-09-27T00:36:22.324Z - Task created: {"id":15,"title":"User Task 2","description":"Another user-created task","userId":10,"createdBy":"user"}
+2025-09-27T00:36:22.352Z - Task updated: {"id":14,"title":"Updated User Task","description":"Updated description for user task","userId":10,"createdBy":"user"}
+2025-09-27T00:36:22.366Z - Unauthorized update attempt by user 10 on task 1
+2025-09-27T00:36:22.447Z - Task updated: {"id":2,"title":"Admin Edited User Task","description":"Updated description for user task","userId":2,"createdBy":"user"}
+2025-09-27T00:36:22.472Z - Task updated: {"id":1,"title":"Updated Admin Task","description":"Generic description for admin task","userId":1,"createdBy":"admin"}
+2025-09-27T01:16:40.663Z - Task created: {"id":16,"title":"Admin Task","description":"Generic description for admin task","userId":11,"createdBy":"admin"}
+2025-09-27T01:16:40.812Z - Task created: {"id":17,"title":"User Task","description":"Generic description for user task","userId":12,"createdBy":"user"}
+2025-09-27T01:16:40.830Z - Task created: {"id":18,"title":"User Task 2","description":"Another user-created task","userId":12,"createdBy":"user"}
+2025-09-27T01:16:40.869Z - Task updated: {"id":17,"title":"Updated User Task","description":"Updated description for user task","userId":12,"createdBy":"user"}
+2025-09-27T01:16:40.891Z - Unauthorized update attempt by user 12 on task 1
+2025-09-27T01:16:40.981Z - Task updated: {"id":2,"title":"Admin Edited User Task","description":"Updated description for user task","userId":2,"createdBy":"user"}
+2025-09-27T01:16:41.010Z - Task updated: {"id":1,"title":"Updated Admin Task","description":"Generic description for admin task","userId":1,"createdBy":"admin"}
+2025-09-27T01:21:50.893Z - Task created: {"id":1,"title":"Admin Task","description":"Generic description for admin task","userId":13,"createdBy":"admin"}
+2025-09-27T01:21:51.046Z - Task created: {"id":2,"title":"User Task","description":"Generic description for user task","userId":14,"createdBy":"user"}
+2025-09-27T01:21:51.060Z - Task created: {"id":3,"title":"User Task 2","description":"Another user-created task","userId":14,"createdBy":"user"}
+2025-09-27T01:21:51.090Z - Task updated: {"id":2,"title":"Updated User Task","description":"Updated description for user task","userId":14,"createdBy":"user"}
+2025-09-27T01:21:51.105Z - Unauthorized update attempt by user 14 on task 1
+2025-09-27T01:21:51.192Z - Task updated: {"id":2,"title":"Admin Edited User Task","description":"Updated description for user task","userId":14,"createdBy":"user"}
+2025-09-27T01:21:51.219Z - Task updated: {"id":1,"title":"Updated Admin Task","description":"Generic description for admin task","userId":13,"createdBy":"admin"}
+2025-09-27T01:33:54.414Z - Task created: {"id":4,"title":"Admin Task","description":"Generic description for admin task","userId":15,"createdBy":"admin"}
+2025-09-27T01:33:54.565Z - Task created: {"id":5,"title":"User Task","description":"Generic description for user task","userId":16,"createdBy":"user"}
+2025-09-27T01:33:54.580Z - Task created: {"id":6,"title":"User Task 2","description":"Another user-created task","userId":16,"createdBy":"user"}
+2025-09-27T01:33:54.612Z - Task updated: {"id":5,"title":"Updated User Task","description":"Updated description for user task","userId":16,"createdBy":"user"}
+2025-09-27T01:33:54.628Z - Unauthorized update attempt by user 16 on task 1
+2025-09-27T01:33:54.664Z - Task with id 6 not found.
+2025-09-27T01:33:54.678Z - Task with id 1 not found.
+2025-09-27T01:33:54.722Z - Task updated: {"id":2,"title":"Admin Edited User Task","description":"Updated description for user task","userId":14,"createdBy":"user"}
+2025-09-27T01:33:54.753Z - Task updated: {"id":1,"title":"Updated Admin Task","description":"Generic description for admin task","userId":13,"createdBy":"admin"}
+2025-09-27T01:33:54.780Z - Task with id 2 not found.
+2025-09-27T01:33:54.806Z - Task with id 1 not found.
+2025-09-27T01:37:33.192Z - Task created: {"id":7,"title":"Admin Task","description":"Generic description for admin task","userId":17,"createdBy":"admin"}
+2025-09-27T01:37:33.342Z - Task created: {"id":8,"title":"User Task","description":"Generic description for user task","userId":18,"createdBy":"user"}
+2025-09-27T01:37:33.356Z - Task created: {"id":9,"title":"User Task 2","description":"Another user-created task","userId":18,"createdBy":"user"}
+2025-09-27T01:37:33.386Z - Task updated: {"id":8,"title":"Updated User Task","description":"Updated description for user task","userId":18,"createdBy":"user"}
+2025-09-27T01:37:33.402Z - Unauthorized update attempt by user 18 on task 1
+2025-09-27T01:37:33.441Z - Task deleted by user: {"id":9,"title":"User Task 2","description":"Another user-created task","userId":18,"createdBy":"user"}
+2025-09-27T01:37:33.465Z - Unauthorized delete attempt by user 18 on task 1
+2025-09-27T01:37:33.502Z - Task updated: {"id":2,"title":"Admin Edited User Task","description":"Updated description for user task","userId":14,"createdBy":"user"}
+2025-09-27T01:37:33.529Z - Task updated: {"id":1,"title":"Updated Admin Task","description":"Generic description for admin task","userId":13,"createdBy":"admin"}
+2025-09-27T01:37:33.558Z - Task deleted by admin: {"id":2,"title":"Admin Edited User Task","description":"Updated description for user task","userId":14,"createdBy":"user"}
+2025-09-27T01:37:33.588Z - Task deleted by admin: {"id":1,"title":"Updated Admin Task","description":"Generic description for admin task","userId":13,"createdBy":"admin"}
+2025-09-27T01:49:22.836Z - Task created: {"id":9,"title":"Admin Task","description":"Generic description for admin task","userId":19,"createdBy":"admin"}
+2025-09-27T01:49:22.976Z - Task created: {"id":10,"title":"User Task","description":"Generic description for user task","userId":20,"createdBy":"user"}
+2025-09-27T01:49:22.990Z - Task created: {"id":11,"title":"User Task 2","description":"Another user-created task","userId":20,"createdBy":"user"}
+2025-09-27T01:49:23.021Z - Task updated: {"id":10,"title":"Updated User Task","description":"Updated description for user task","userId":20,"createdBy":"user"}
+2025-09-27T01:49:23.073Z - Task deleted by user: {"id":11,"title":"User Task 2","description":"Another user-created task","userId":20,"createdBy":"user"}
+2025-09-27T01:49:23.087Z - Task with id 1 not found.
+2025-09-27T01:49:23.123Z - Task updated: {"id":3,"title":"Admin Edited User Task","description":"Another user-created task","userId":14,"createdBy":"user"}
+2025-09-27T01:49:23.150Z - Task updated: {"id":4,"title":"Updated Admin Task","description":"Generic description for admin task","userId":15,"createdBy":"admin"}
+2025-09-27T01:49:23.180Z - Task deleted by admin: {"id":3,"title":"Admin Edited User Task","description":"Another user-created task","userId":14,"createdBy":"user"}
+2025-09-27T01:49:23.207Z - Task deleted by admin: {"id":4,"title":"Updated Admin Task","description":"Generic description for admin task","userId":15,"createdBy":"admin"}
+2025-09-27T02:01:15.084Z - Task created: {"id":11,"title":"Admin Task","description":"Generic description for admin task","userId":21,"createdBy":"admin"}
+2025-09-27T02:01:15.227Z - Task created: {"id":12,"title":"User Task","description":"Generic description for user task","userId":22,"createdBy":"user"}
+2025-09-27T02:01:15.240Z - Task created: {"id":13,"title":"User Task 2","description":"Another user-created task","userId":22,"createdBy":"user"}
+2025-09-27T02:01:15.271Z - Task updated: {"id":12,"title":"Updated User Task","description":"Updated description for user task","userId":22,"createdBy":"user"}
+2025-09-27T02:01:15.328Z - Task deleted by user: {"id":13,"title":"User Task 2","description":"Another user-created task","userId":22,"createdBy":"user"}
+2025-09-27T02:01:15.359Z - Unauthorized delete attempt by user 22 on task 7
+2025-09-27T02:01:15.396Z - Task updated: {"id":5,"title":"Admin Edited User Task","description":"Updated description for user task","userId":16,"createdBy":"user"}
+2025-09-27T02:01:15.423Z - Task updated: {"id":7,"title":"Updated Admin Task","description":"Generic description for admin task","userId":17,"createdBy":"admin"}
+2025-09-27T02:01:15.454Z - Task deleted by admin: {"id":5,"title":"Admin Edited User Task","description":"Updated description for user task","userId":16,"createdBy":"user"}
+2025-09-27T02:01:15.482Z - Task deleted by admin: {"id":7,"title":"Updated Admin Task","description":"Generic description for admin task","userId":17,"createdBy":"admin"}
+2025-09-27T02:33:04.174Z - Task created: {"id":1,"title":"Admin Task","description":"Generic description for admin task","userId":23,"createdBy":"admin"}
+2025-09-27T02:33:04.324Z - Task created: {"id":2,"title":"User Task","description":"Generic description for user task","userId":24,"createdBy":"user"}
+2025-09-27T02:33:04.339Z - Task created: {"id":3,"title":"User Task 2","description":"Another user-created task","userId":24,"createdBy":"user"}
+2025-09-27T02:33:04.377Z - Task updated: {"id":2,"title":"Updated User Task","description":"Updated description for user task","userId":24,"createdBy":"user"}
+2025-09-27T02:33:04.396Z - Unauthorized update attempt by user 24 on task 1
+2025-09-27T02:33:04.439Z - Task deleted by user: {"id":3,"title":"User Task 2","description":"Another user-created task","userId":24,"createdBy":"user"}
+2025-09-27T02:33:04.466Z - Unauthorized delete attempt by user 24 on task 1
+2025-09-27T02:33:04.502Z - Task updated: {"id":2,"title":"Admin Edited User Task","description":"Updated description for user task","userId":24,"createdBy":"user"}
+2025-09-27T02:33:04.528Z - Task updated: {"id":1,"title":"Updated Admin Task","description":"Generic description for admin task","userId":23,"createdBy":"admin"}
+2025-09-27T02:33:04.555Z - Task deleted by admin: {"id":2,"title":"Admin Edited User Task","description":"Updated description for user task","userId":24,"createdBy":"user"}
+2025-09-27T02:33:04.582Z - Task deleted by admin: {"id":1,"title":"Updated Admin Task","description":"Generic description for admin task","userId":23,"createdBy":"admin"}
+2025-09-27T03:08:51.019Z - Task created: {"id":1,"title":"Admin Task","description":"Generic description for admin task","userId":25,"createdBy":"admin"}
+2025-09-27T03:08:51.168Z - Task created: {"id":2,"title":"User Task","description":"Generic description for user task","userId":26,"createdBy":"user"}
+2025-09-27T03:08:51.181Z - Task created: {"id":3,"title":"User Task 2","description":"Another user-created task","userId":26,"createdBy":"user"}
+2025-09-27T03:08:51.211Z - Task updated: {"id":2,"title":"Updated User Task","description":"Updated description for user task","userId":26,"createdBy":"user"}
+2025-09-27T03:08:51.272Z - Task deleted by user: {"id":3,"title":"User Task 2","description":"Another user-created task","userId":26,"createdBy":"user"}
+2025-09-27T03:08:51.339Z - Task updated: {"id":2,"title":"Admin Edited User Task","description":"Updated description for user task","userId":26,"createdBy":"user"}
+2025-09-27T03:08:51.368Z - Task updated: {"id":1,"title":"Updated Admin Task","description":"Generic description for admin task","userId":25,"createdBy":"admin"}
+2025-09-27T03:08:51.417Z - Task deleted by admin: {"id":2,"title":"Admin Edited User Task","description":"Updated description for user task","userId":26,"createdBy":"user"}
+2025-09-27T03:08:51.445Z - Task deleted by admin: {"id":1,"title":"Updated Admin Task","description":"Generic description for admin task","userId":25,"createdBy":"admin"}
+2025-09-27T03:28:47.709Z - Task created: {"id":1,"title":"Admin Task","description":"Generic description for admin task","userId":27,"createdBy":"admin"}
+2025-09-27T03:28:47.850Z - Task created: {"id":2,"title":"User Task","description":"Generic description for user task","userId":28,"createdBy":"user"}
+2025-09-27T03:28:47.864Z - Task created: {"id":3,"title":"User Task 2","description":"Another user-created task","userId":28,"createdBy":"user"}
+2025-09-27T03:28:47.899Z - Task updated: {"id":2,"title":"Updated User Task","description":"Updated description for user task","userId":28,"createdBy":"user"}
+2025-09-27T03:28:47.949Z - Task deleted by user: {"id":3,"title":"User Task 2","description":"Another user-created task","userId":28,"createdBy":"user"}
+2025-09-27T03:28:48.010Z - Task updated: {"id":2,"title":"Admin Edited User Task","description":"Updated description for user task","userId":28,"createdBy":"user"}
+2025-09-27T03:28:48.037Z - Task updated: {"id":1,"title":"Updated Admin Task","description":"Generic description for admin task","userId":27,"createdBy":"admin"}
+2025-09-27T03:28:48.087Z - Task deleted by admin: {"id":2,"title":"Admin Edited User Task","description":"Updated description for user task","userId":28,"createdBy":"user"}
+2025-09-27T03:28:48.114Z - Task deleted by admin: {"id":1,"title":"Updated Admin Task","description":"Generic description for admin task","userId":27,"createdBy":"admin"}
+2025-09-27T03:42:16.118Z - Task created: {"id":1,"title":"Admin Task","description":"Generic description for admin task","userId":29,"createdBy":"admin"}
+2025-09-27T03:42:16.267Z - Task created: {"id":2,"title":"User Task","description":"Generic description for user task","userId":30,"createdBy":"user"}
+2025-09-27T03:42:16.280Z - Task created: {"id":3,"title":"User Task 2","description":"Another user-created task","userId":30,"createdBy":"user"}
+2025-09-27T03:42:16.310Z - Task updated: {"id":2,"title":"Updated User Task","description":"Updated description for user task","userId":30,"createdBy":"user"}
+2025-09-27T03:42:16.372Z - Task deleted by user: {"id":3,"title":"User Task 2","description":"Another user-created task","userId":30,"createdBy":"user"}
+2025-09-27T03:42:16.448Z - Task updated: {"id":2,"title":"Admin Edited User Task","description":"Updated description for user task","userId":30,"createdBy":"user"}
+2025-09-27T03:42:16.476Z - Task updated: {"id":1,"title":"Updated Admin Task","description":"Generic description for admin task","userId":29,"createdBy":"admin"}
+2025-09-27T03:42:16.528Z - Task deleted by admin: {"id":2,"title":"Admin Edited User Task","description":"Updated description for user task","userId":30,"createdBy":"user"}
+2025-09-27T03:42:16.557Z - Task deleted by admin: {"id":1,"title":"Updated Admin Task","description":"Generic description for admin task","userId":29,"createdBy":"admin"}
+2025-09-27T04:59:53.298Z - Task created: {"id":1,"title":"Admin Task","description":"Generic description for admin task","userId":31,"createdBy":"admin"}
+2025-09-27T04:59:53.448Z - Task created: {"id":2,"title":"User Task","description":"Generic description for user task","userId":32,"createdBy":"user"}
+2025-09-27T04:59:53.462Z - Task created: {"id":3,"title":"User Task 2","description":"Another user-created task","userId":32,"createdBy":"user"}
+2025-09-27T04:59:53.495Z - Task updated: {"id":2,"title":"Updated User Task","description":"Updated description for user task","userId":32,"createdBy":"user"}
+2025-09-27T04:59:53.550Z - Task deleted by user: {"id":3,"title":"User Task 2","description":"Another user-created task","userId":32,"createdBy":"user"}
+2025-09-27T04:59:53.632Z - Task updated: {"id":2,"title":"Admin Edited User Task","description":"Updated description for user task","userId":32,"createdBy":"user"}
+2025-09-27T04:59:53.663Z - Task updated: {"id":1,"title":"Updated Admin Task","description":"Generic description for admin task","userId":31,"createdBy":"admin"}
+2025-09-27T04:59:53.716Z - Task deleted by admin: {"id":2,"title":"Admin Edited User Task","description":"Updated description for user task","userId":32,"createdBy":"user"}
+2025-09-27T04:59:53.745Z - Task deleted by admin: {"id":1,"title":"Updated Admin Task","description":"Generic description for admin task","userId":31,"createdBy":"admin"}
+2025-09-27T05:13:32.110Z - Task created: {"id":1,"title":"Admin Task","description":"Generic description for admin task","userId":33,"createdBy":"admin"}
+2025-09-27T05:13:32.263Z - Task created: {"id":2,"title":"User Task","description":"Generic description for user task","userId":34,"createdBy":"user"}
+2025-09-27T05:13:32.278Z - Task created: {"id":3,"title":"User Task 2","description":"Another user-created task","userId":34,"createdBy":"user"}
+2025-09-27T05:13:32.312Z - Task updated: {"id":2,"title":"Updated User Task","description":"Updated description for user task","userId":34,"createdBy":"user"}
+2025-09-27T05:13:32.372Z - Task deleted by user: {"id":3,"title":"User Task 2","description":"Another user-created task","userId":34,"createdBy":"user"}
+2025-09-27T05:13:32.452Z - Task updated: {"id":2,"title":"Admin Edited User Task","description":"Updated description for user task","userId":34,"createdBy":"user"}
+2025-09-27T05:13:32.482Z - Task updated: {"id":1,"title":"Updated Admin Task","description":"Generic description for admin task","userId":33,"createdBy":"admin"}
+2025-09-27T05:13:32.540Z - Task deleted by admin: {"id":2,"title":"Admin Edited User Task","description":"Updated description for user task","userId":34,"createdBy":"user"}
+2025-09-27T05:13:32.573Z - Task deleted by admin: {"id":1,"title":"Updated Admin Task","description":"Generic description for admin task","userId":33,"createdBy":"admin"}
+2025-09-27T05:21:31.150Z - Task created: {"id":1,"title":"Admin Task","description":"Generic description for admin task","userId":35,"createdBy":"admin"}
+2025-09-27T05:21:31.304Z - Task created: {"id":2,"title":"User Task","description":"Generic description for user task","userId":36,"createdBy":"user"}
+2025-09-27T05:21:31.325Z - Task created: {"id":3,"title":"User Task 2","description":"Another user-created task","userId":36,"createdBy":"user"}
+2025-09-27T05:21:31.359Z - Task updated: {"id":2,"title":"Updated User Task","description":"Updated description for user task","userId":36,"createdBy":"user"}
+2025-09-27T05:21:31.419Z - Task deleted by user: {"id":3,"title":"User Task 2","description":"Another user-created task","userId":36,"createdBy":"user"}
+2025-09-27T05:21:31.498Z - Task updated: {"id":2,"title":"Admin Edited User Task","description":"Updated description for user task","userId":36,"createdBy":"user"}
+2025-09-27T05:21:31.529Z - Task updated: {"id":1,"title":"Updated Admin Task","description":"Generic description for admin task","userId":35,"createdBy":"admin"}
+2025-09-27T05:21:31.587Z - Task deleted by admin: {"id":2,"title":"Admin Edited User Task","description":"Updated description for user task","userId":36,"createdBy":"user"}
+2025-09-27T05:21:31.627Z - Task deleted by admin: {"id":1,"title":"Updated Admin Task","description":"Generic description for admin task","userId":35,"createdBy":"admin"}

@@ -17,34 +17,37 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
         step((generator = generator.apply(thisArg, _arguments || [])).next());
     });
 };
+var JwtStrategy_1;
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.AuthService = void 0;
+exports.JwtStrategy = void 0;
 const common_1 = require("@nestjs/common");
-const jwt_1 = require("@nestjs/jwt");
-let AuthService = class AuthService {
-    constructor(jwtService) {
-        this.jwtService = jwtService;
-    }
-    validateUser(username, pass) {
-        return __awaiter(this, void 0, void 0, function* () {
-            // TODO: Validate user credentials (replace with actual logic)
-            if (username === 'test' && pass === 'password') {
-                return { userId: 1, username: 'test' };
-            }
-            return null;
+const passport_1 = require("@nestjs/passport");
+const passport_jwt_1 = require("passport-jwt");
+let JwtStrategy = JwtStrategy_1 = class JwtStrategy extends (0, passport_1.PassportStrategy)(passport_jwt_1.Strategy) {
+    constructor() {
+        console.log('JwtStrategy: constructor called');
+        super({
+            jwtFromRequest: passport_jwt_1.ExtractJwt.fromAuthHeaderAsBearerToken(),
+            ignoreExpiration: false,
+            secretOrKey: process.env.JWT_SECRET || 'your_jwt_secret', // Use environment variable for JWT secret
         });
+        this.logger = new common_1.Logger(JwtStrategy_1.name);
+        console.log('JwtStrategy: Using secret key:', process.env.JWT_SECRET || 'your_jwt_secret');
     }
-    login(user) {
+    validate(payload) {
         return __awaiter(this, void 0, void 0, function* () {
-            const payload = { username: user.username, sub: user.userId };
-            return {
-                access_token: this.jwtService.sign(payload),
-            };
+            console.log('JwtStrategy: validate called');
+            console.log('Raw payload:', payload);
+            this.logger.debug(`Validating JWT payload: ${JSON.stringify(payload)}`);
+            this.logger.debug(`Payload roles: ${JSON.stringify(payload.roles)}`);
+            this.logger.debug(`Payload username: ${payload.username}`);
+            this.logger.debug(`Payload userId: ${payload.sub}`);
+            return { userId: payload.sub, username: payload.username, roles: payload.roles };
         });
     }
 };
-AuthService = __decorate([
+exports.JwtStrategy = JwtStrategy;
+exports.JwtStrategy = JwtStrategy = JwtStrategy_1 = __decorate([
     (0, common_1.Injectable)(),
-    __metadata("design:paramtypes", [jwt_1.JwtService])
-], AuthService);
-exports.AuthService = AuthService;
+    __metadata("design:paramtypes", [])
+], JwtStrategy);

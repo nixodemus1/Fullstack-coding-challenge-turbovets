@@ -10,10 +10,10 @@ exports.UsersModule = void 0;
 const common_1 = require("@nestjs/common");
 let UsersModule = class UsersModule {
 };
-UsersModule = __decorate([
+exports.UsersModule = UsersModule;
+exports.UsersModule = UsersModule = __decorate([
     (0, common_1.Module)({
-        providers: [],
+        providers: [], // Add user-related services here
         exports: [],
     })
 ], UsersModule);
-exports.UsersModule = UsersModule;

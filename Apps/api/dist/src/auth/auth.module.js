@@ -10,23 +10,29 @@ exports.AuthModule = void 0;
 const common_1 = require("@nestjs/common");
 const jwt_1 = require("@nestjs/jwt");
 const passport_1 = require("@nestjs/passport");
+const typeorm_1 = require("@nestjs/typeorm");
 const auth_service_1 = require("./auth.service");
 const jwt_strategy_1 = require("./jwt.strategy");
 const users_module_1 = require("../users/users.module");
+const auth_controller_1 = require("./auth.controller");
+const entities_1 = require("../entities");
+const role_seeder_service_1 = require("./role-seeder.service");
 let AuthModule = class AuthModule {
 };
-AuthModule = __decorate([
+exports.AuthModule = AuthModule;
+exports.AuthModule = AuthModule = __decorate([
     (0, common_1.Module)({
         imports: [
             users_module_1.UsersModule,
-            passport_1.PassportModule,
+            passport_1.PassportModule.register({ defaultStrategy: 'jwt' }),
             jwt_1.JwtModule.register({
-                secret: 'your_jwt_secret',
+                secret: process.env.JWT_SECRET || 'your_jwt_secret', // Use environment variable for JWT secret
                 signOptions: { expiresIn: '1h' },
             }),
+            typeorm_1.TypeOrmModule.forFeature([entities_1.User, entities_1.Role]),
         ],
-        providers: [auth_service_1.AuthService, jwt_strategy_1.JwtStrategy],
-        exports: [auth_service_1.AuthService],
+        providers: [auth_service_1.AuthService, jwt_strategy_1.JwtStrategy, role_seeder_service_1.RoleSeederService],
+        controllers: [auth_controller_1.AuthController],
+        exports: [auth_service_1.AuthService, jwt_strategy_1.JwtStrategy],
     })
 ], AuthModule);
-exports.AuthModule = AuthModule;
